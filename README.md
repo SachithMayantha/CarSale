@@ -1,2 +1,2 @@
 # CarSale
-CarSale Web System. CRUD Operation with User permissions
+CarSale Web System. JSP Servlet with MySQL
