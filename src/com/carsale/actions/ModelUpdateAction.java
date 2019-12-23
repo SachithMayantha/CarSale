@@ -1,4 +1,4 @@
-package com.industrialmaster.carsale.actions;
+package com.carsale.actions;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.industrialmaster.carsale.db.DB;
+import com.carsale.db.DB;
 
 @WebServlet("/model_update")
 public class ModelUpdateAction extends HttpServlet {
