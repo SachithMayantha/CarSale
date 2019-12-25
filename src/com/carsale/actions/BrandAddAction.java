@@ -1,4 +1,4 @@
-package com.industrialmaster.carsale.actions;
+package com.carsale.actions;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.industrialmaster.carsale.db.DB;
+import com.carsale.db.DB;
 
 @WebServlet("/brand_add")
 public class BrandAddAction extends HttpServlet {
