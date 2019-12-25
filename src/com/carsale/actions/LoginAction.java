@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.industrialmaster.carsale.db.DB;
+import com.carsale.db.DB;
 
 @WebServlet("/log")
 public class LoginAction extends HttpServlet {
