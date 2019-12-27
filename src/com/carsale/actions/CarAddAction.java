@@ -1,4 +1,4 @@
-package com.industrialmaster.carsale.actions;
+package com.carsale.actions;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-import com.industrialmaster.carsale.db.DB;
+import com.carsale.db.DB;
 
 @WebServlet("/car_add")
 public class CarAddAction extends HttpServlet {
